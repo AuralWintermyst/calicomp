@@ -1,0 +1,72 @@
+﻿html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightpink; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);*/ /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #fffcdc, #d9a7c7);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg-img {
+    /* The image used */
+    background-image: url(/Images/group_of_happy_workers.png);
+    min-height: 380px;
+    /*max-height: 500px;
+    max-width: 3000px;*/
+    /* Center and scale the image nicely */
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: whitesmoke;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    /*background-color: papayawhip;*/
+}
+
+    .form-signin .checkbox {
+        font-weight: 400;
+    }
+
+    .form-signin .form-control {
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
